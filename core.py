@@ -63,7 +63,7 @@ def lock(fd):
 def single_process(f):
     script_path = os.path.dirname(os.path.abspath(sys.argv[0]))
     lock_file_path = os.path.join(
-        script_path, getattr(settings, 'LOCK_FILE', '.pid')
+        script_path, getattr(settings, 'LOCK_FILE', '/tmp/sshbackup.pid')
     )
 
     def _(*a, **kw):
