@@ -1,0 +1,4 @@
+__pycache__
+.pid
+settings_local.py
+*.pyc
