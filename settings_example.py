@@ -1,7 +1,7 @@
 SAVE_PATH = '/var/lib/backups/mymachines'
 TEMP_PATH = '/tmp'
 
-HOSTS = [
+CLIENTS = [
     {
         'name': 'web1',
         'host': 'example.com',
